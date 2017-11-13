@@ -12,8 +12,30 @@ class ViewController: UIViewController,DWBoardButtonInputDelegate {
     func boardButtonClick(content: String) {
         if content == "AC" || content == "DEL" || content == "=" {
             //进行逻辑处理
-            screen.refreshHistory()
+            switch content {
+            case "AC":
+                screen.clearContent()
+                screen.refreshHistory()
+            case "DEL":
+                screen.deleteInput()
+            case "=":
+                let result = calcaltor.calculatEquation(equation: screen.inputString)
+                //先刷新历史
+                screen.refreshHistory()
+                //清除输入的内容
+                screen.clearContent()
+                //将结果输入
+                screen.inputContent(content: String(result))
+                isNew = true
+            default:
+                screen.refreshHistory()
+            }
+            
         }else {
+            if isNew {
+                screen.clearContent()
+                isNew = false
+            }
             screen.inputContent(content:content)
         }
     }
@@ -21,6 +43,12 @@ class ViewController: UIViewController,DWBoardButtonInputDelegate {
 
     let board = DWBoard()
     let screen = DWScreen()
+    
+    //计算引擎实例
+    let calcaltor = DWCalculatorEngine()
+    //这个输入是否需要刷新显示屏
+    var isNew = false
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

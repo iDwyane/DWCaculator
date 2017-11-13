@@ -17,6 +17,7 @@
 		7978E4C11FB5533600DA44D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7978E4BF1FB5533600DA44D5 /* Main.storyboard */; };
 		7978E4C31FB5533600DA44D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7978E4C21FB5533600DA44D5 /* Assets.xcassets */; };
 		7978E4C61FB5533600DA44D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7978E4C41FB5533600DA44D5 /* LaunchScreen.storyboard */; };
+		798A4E071FB949D900564CE5 /* DWCalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798A4E061FB949D900564CE5 /* DWCalculatorEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		7978E4C21FB5533600DA44D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7978E4C51FB5533600DA44D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7978E4C71FB5533600DA44D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798A4E061FB949D900564CE5 /* DWCalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWCalculatorEngine.swift; sourceTree = "<group>"; };
 		D5DA7BDA74DFAE39829DE4BB /* Pods-DWCaculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWCaculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-DWCaculator/Pods-DWCaculator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				7975C73E1FB5777000F1CFA6 /* DWFuncButton.swift */,
 				7975C7421FB57B4E00F1CFA6 /* DWBoard.swift */,
 				7975C7781FB5B06000F1CFA6 /* DWScreen.swift */,
+				798A4E061FB949D900564CE5 /* DWCalculatorEngine.swift */,
 				7978E4BF1FB5533600DA44D5 /* Main.storyboard */,
 				7978E4C21FB5533600DA44D5 /* Assets.xcassets */,
 				7978E4C41FB5533600DA44D5 /* LaunchScreen.storyboard */,
@@ -233,6 +236,7 @@
 			files = (
 				7978E4BE1FB5533600DA44D5 /* ViewController.swift in Sources */,
 				7975C73F1FB5777000F1CFA6 /* DWFuncButton.swift in Sources */,
+				798A4E071FB949D900564CE5 /* DWCalculatorEngine.swift in Sources */,
 				7978E4BC1FB5533600DA44D5 /* AppDelegate.swift in Sources */,
 				7975C7431FB57B4E00F1CFA6 /* DWBoard.swift in Sources */,
 				7975C7791FB5B06000F1CFA6 /* DWScreen.swift in Sources */,

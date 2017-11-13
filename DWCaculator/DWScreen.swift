@@ -79,6 +79,21 @@ class DWScreen: UIView {
         historyLabel?.text = historyString
     }
     
+    //清空显示屏当前输入的信息
+    func clearContent() {
+        inputString = ""
+        inputLabel?.text = inputString
+    }
+    
+    //删除显示屏中上次输入的字符
+    func deleteInput() {
+        if inputString.characters.count>0 {
+            inputString.remove(at: inputString.index(before: inputString.endIndex))
+            inputLabel?.text = inputString
+        }
+    }
+    
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
