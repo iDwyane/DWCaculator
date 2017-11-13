@@ -19,7 +19,7 @@ class ViewController: UIViewController,DWBoardButtonInputDelegate {
             case "DEL":
                 screen.deleteInput()
             case "=":
-                let result = calcaltor.calculatEquation(equation: screen.inputString)
+                let result = calcalator.calculatEquation(equation: screen.inputString)
                 //先刷新历史
                 screen.refreshHistory()
                 //清除输入的内容
@@ -45,7 +45,7 @@ class ViewController: UIViewController,DWBoardButtonInputDelegate {
     let screen = DWScreen()
     
     //计算引擎实例
-    let calcaltor = DWCalculatorEngine()
+    let calcalator = DWCalculatorEngine()
     //这个输入是否需要刷新显示屏
     var isNew = false
     
