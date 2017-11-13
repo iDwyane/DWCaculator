@@ -11,6 +11,7 @@
 		7975C73F1FB5777000F1CFA6 /* DWFuncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C73E1FB5777000F1CFA6 /* DWFuncButton.swift */; };
 		7975C7431FB57B4E00F1CFA6 /* DWBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C7421FB57B4E00F1CFA6 /* DWBoard.swift */; };
 		7975C7691FB57D6C00F1CFA6 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7975C76A1FB57D6C00F1CFA6 /* SnapKit.framework */; };
+		7975C7791FB5B06000F1CFA6 /* DWScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C7781FB5B06000F1CFA6 /* DWScreen.swift */; };
 		7978E4BC1FB5533600DA44D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7978E4BB1FB5533600DA44D5 /* AppDelegate.swift */; };
 		7978E4BE1FB5533600DA44D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7978E4BD1FB5533600DA44D5 /* ViewController.swift */; };
 		7978E4C11FB5533600DA44D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7978E4BF1FB5533600DA44D5 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		7975C73E1FB5777000F1CFA6 /* DWFuncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWFuncButton.swift; sourceTree = "<group>"; };
 		7975C7421FB57B4E00F1CFA6 /* DWBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWBoard.swift; sourceTree = "<group>"; };
 		7975C76A1FB57D6C00F1CFA6 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7975C7781FB5B06000F1CFA6 /* DWScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWScreen.swift; sourceTree = "<group>"; };
 		7978E4B81FB5533600DA44D5 /* DWCaculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWCaculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7978E4BB1FB5533600DA44D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7978E4BD1FB5533600DA44D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				7978E4BD1FB5533600DA44D5 /* ViewController.swift */,
 				7975C73E1FB5777000F1CFA6 /* DWFuncButton.swift */,
 				7975C7421FB57B4E00F1CFA6 /* DWBoard.swift */,
+				7975C7781FB5B06000F1CFA6 /* DWScreen.swift */,
 				7978E4BF1FB5533600DA44D5 /* Main.storyboard */,
 				7978E4C21FB5533600DA44D5 /* Assets.xcassets */,
 				7978E4C41FB5533600DA44D5 /* LaunchScreen.storyboard */,
@@ -232,6 +235,7 @@
 				7975C73F1FB5777000F1CFA6 /* DWFuncButton.swift in Sources */,
 				7978E4BC1FB5533600DA44D5 /* AppDelegate.swift in Sources */,
 				7975C7431FB57B4E00F1CFA6 /* DWBoard.swift in Sources */,
+				7975C7791FB5B06000F1CFA6 /* DWScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

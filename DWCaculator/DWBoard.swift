@@ -9,7 +9,13 @@
 import UIKit
 import SnapKit
 
+protocol DWBoardButtonInputDelegate {
+    func boardButtonClick(content:String)
+}
+
+
 class DWBoard: UIView {
+    var delegate:DWBoardButtonInputDelegate?
     //用于存放操作面板上所有功能按钮的标题
     var dataArray = ["0", ".", "%", "="
                     , "1", "2", "3", "+"
@@ -71,7 +77,11 @@ class DWBoard: UIView {
     }
     
     @objc func btnClick(_ button:DWFuncButton) {
-        print(button.currentTitle!)
+//        print(button.currentTitle!)
+        if delegate != nil {
+            //通过协议方法将值传递出去
+            delegate?.boardButtonClick(content: button.currentTitle!)
+        }
     }
     
 }
