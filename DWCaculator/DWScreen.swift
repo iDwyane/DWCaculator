@@ -11,6 +11,7 @@ import UIKit
 class DWScreen: UIView {
 
     var inputLabel:UILabel?
+    
     //用于显示历史记录信息
     var historyLabel:UILabel?
     //用户输入表达式或者计算结果字符串
